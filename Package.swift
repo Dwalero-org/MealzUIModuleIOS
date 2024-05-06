@@ -46,7 +46,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "MealzUIModuleIOS",
-            url: "https://github.com/Dwalero-org/MealzUIModuleIOSRelease/releases/download/1.0.3/MealzUIModuleIOS.zip",
+            url: "https://github.com/Dwalero-org/MealzCoreRelease/raw/release/1.0.1/mealzcore.zip",
         ),
         .target(
             name: "MealzUIModuleIOS",
