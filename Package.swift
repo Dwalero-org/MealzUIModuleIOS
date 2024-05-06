@@ -44,8 +44,13 @@ let package = Package(
         return dependencies
     }(),
     targets: [
+        .binaryTarget(
+            name: "MealzUIModuleIOS",
+            url: "https://github.com/Dwalero-org/MealzUIModuleIOSRelease/releases/download/1.0.3/MealzUIModuleIOS.zip",
+        ),
         .target(
             name: "MealzUIModuleIOS",
+            
             dependencies: {
                 var dependencies: [Target.Dependency] = []
                 if configurationMode == "dev" {
